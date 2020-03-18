@@ -32,3 +32,25 @@ form{
 #submit-btn:hover{
     background: grey;
 }
+.legend{
+
+}
+.legend ul{
+    list-style-type: none;
+}
+.legend span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.legend li{
+    display: flex;
+    margin-bottom: 10px;
+}
+.azersky{
+    background: green;
+}
+.spot6{
+    background: red;
+}

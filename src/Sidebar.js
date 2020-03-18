@@ -18,6 +18,12 @@ const Sidebar = (props) => {
                 </label>
                 <input id={'submit-btn'} type='submit' placeholder='Submit'></input>
             </form>
+            <div className={'legend'}>
+                <ul className={'legend-list'}>
+                    <li className={'legend-list-item'}><span className={'azersky'}></span>AZERSKY</li>
+                    <li className={'legend-list-item'}><span className={'spot6'}></span>SPOT6</li>
+                </ul>
+            </div>
         </div>
     );
 };
