@@ -1,0 +1,14 @@
+.mainContent{
+    flex: 1;
+    border: 1px solid grey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 6px 8px 5px -5px black; */
+}
+.image-item{
+    object-fit: cover;
+    width: 900px;
+    height: 415px;
+}

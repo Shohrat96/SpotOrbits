@@ -1,0 +1,18 @@
+.title{
+    width: 70%;
+    margin: 0 auto;
+    word-wrap: break-word;
+    text-align: center;
+}
+.container{
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.contentWrapper{
+    display: flex;
+    border: 1px solid grey;
+    box-shadow: 6px 8px 5px -5px black;
+    height: 100%;
+}
