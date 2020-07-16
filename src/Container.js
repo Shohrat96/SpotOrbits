@@ -24,23 +24,19 @@ class Container extends Component {
         this.setState({angle:e.currentTarget[0].value})
 
     }
-    // changeAngle(e){
-    //     this.setState({angle:e.currentTarget.value})
-    // }
+
     getCycleDay=(ev)=>{
         let inpValue=ev.target[2].value;
-        console.log(inpValue);
         return inpValue;
     }
     render() {
-        console.log(this.state.date);
         return (
             <div className={'container'}>
                 <div className={'title'}>
                     <h1>AZERSKY and SPOT6 access corridor with the following acquisition angles: 5, 10, 15, 20</h1>
                 </div>
                 <div className={'contentWrapper'}>
-                    <Sidebar defDate={this.state.date} changeState={this.changeState} /*changeAngle={this.changeAngle}*//>
+                    <Sidebar defDate={this.state.date} changeState={this.changeState}/>
                     <Maincontent requiredDate={this.state.date} requiredAngle={this.state.angle} />
                 </div>
 

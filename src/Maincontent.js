@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './style/mainContent.css'
 const Maincontent = (props) => {
     const angle=props.requiredAngle;
@@ -14,10 +14,10 @@ const Maincontent = (props) => {
         let cycleDay=diffInDays%26+1;
         return cycleDay;
     }
-    let path='./img/'+angle+'deg'+'/day'+getCycleDay()+'.JPG'
+    let path='./img/'+angle+'deg/day'+getCycleDay()+'.JPG'
     return (
         <div className={'mainContent'}>
-            <img className={'image-item'} src={require(`${path}`)} alt='image'></img>
+            <img className={'image-item'} src={require(`${path}`)} alt='cycle-pic'></img>
         </div>
     );
 };
