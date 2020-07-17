@@ -33,7 +33,7 @@ class Container extends Component {
         return (
             <div className={'container'}>
                 <div className={'title'}>
-                    <h1>AZERSKY and SPOT6 access corridor with the following acquisition angles: 5, 10, 15, 20</h1>
+                    <h1>AZERSKY and SPOT6 access corridor with the different acquisition angles</h1>
                 </div>
                 <div className={'contentWrapper'}>
                     <Sidebar defDate={this.state.date} changeState={this.changeState}/>
