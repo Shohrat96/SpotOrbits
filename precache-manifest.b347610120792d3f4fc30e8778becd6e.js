@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af048a354b3e976e80ff82f11cc8e762",
+    "revision": "b7421e0934a15524698f116eb85687ff",
     "url": "/SpotOrbits/index.html"
   },
   {
-    "revision": "f5075b289ec5e081742c",
-    "url": "/SpotOrbits/static/css/main.ea420f61.chunk.css"
+    "revision": "cb0ef3f24803f29a900a",
+    "url": "/SpotOrbits/static/css/main.6ddb9ec5.chunk.css"
   },
   {
     "revision": "9e62d7f7434f0d703860",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SpotOrbits/static/js/2.29f6c84a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f5075b289ec5e081742c",
-    "url": "/SpotOrbits/static/js/main.5f6251c2.chunk.js"
+    "revision": "cb0ef3f24803f29a900a",
+    "url": "/SpotOrbits/static/js/main.1afa4fa5.chunk.js"
   },
   {
     "revision": "99c533e64bd130133b5f",
