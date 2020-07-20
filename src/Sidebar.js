@@ -5,7 +5,7 @@ const Sidebar = (props) => {
     return (
         <div className={'sidebar'}>
             <form onSubmit={props.changeState}>
-                <label> Insert the angle. Possible values:5, 10, 15, 20
+                <label> Select the angle
                     <select id="angles" >
                         <option value="5">5</option>
                         <option value="10">10</option>

@@ -1,7 +1,6 @@
 .sidebar{
-    max-width: 30%;
+    width: 25%;
     border: 1px solid grey;
-    /*box-shadow: 6px 8px 5px -5px black;*/
     font-size: 16px;
 }
 label{
@@ -32,9 +31,7 @@ form{
 #submit-btn:hover{
     background: grey;
 }
-.legend{
 
-}
 .legend ul{
     list-style-type: none;
 }
