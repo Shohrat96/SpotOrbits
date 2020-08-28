@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.placeName{
+    width: 100%;
+}
+.weatherSection{
+    max-height:100%; 
+    width:20%;
+    border: 1px solid grey;
+}
+.output{
+    display:flex;
+    flex-direction:column; 
+    align-items:center;
+    height:220px;
+    overflow-y:scroll;
+}

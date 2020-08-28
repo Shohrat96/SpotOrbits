@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Sidebar from './Sidebar';
 import Maincontent from './Maincontent'
 import './style/container.css';
+import Weather from './Weather';
 
 class Container extends Component {
     constructor(props){
@@ -37,6 +38,7 @@ class Container extends Component {
                 </div>
                 <div className={'contentWrapper'}>
                     <Sidebar defDate={this.state.date} changeState={this.changeState}/>
+                    <Weather/>
                     <Maincontent requiredDate={this.state.date} requiredAngle={this.state.angle} />
                 </div>
 
