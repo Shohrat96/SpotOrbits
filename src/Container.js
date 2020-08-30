@@ -38,7 +38,7 @@ class Container extends Component {
                 </div>
                 <div className={'contentWrapper'}>
                     <Sidebar defDate={this.state.date} changeState={this.changeState}/>
-                    <Weather/>
+                    {/*<Weather/>*/}
                     <Maincontent requiredDate={this.state.date} requiredAngle={this.state.angle} />
                 </div>
 

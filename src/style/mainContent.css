@@ -5,8 +5,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
 }
 .image-item{
     object-fit: cover;
-    height: 415px;
+    height: 380px;
+    width: 95%;
 }
